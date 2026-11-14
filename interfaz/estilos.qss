@@ -1,0 +1,24 @@
+QWidget { background: #f6f9ff; color: #18335d; font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; }
+#appTitle { color: #18335d; font-size: 15px; font-weight: 700; }
+#appSubtitle, #mutedText { color: #5c718f; }
+#parametersPanel, #casesPanel, #chartPanel, #resultsPanel, #tablePanel { background: #ffffff; border: 1px solid #d4e0f0; border-radius: 12px; }
+#panelTitle, #tableTitle { color: #142f5a; font-size: 18px; font-weight: 700; }
+#summaryTitle { color: #142f5a; font-size: 15px; font-weight: 700; }
+QLabel { background: transparent; }
+QLineEdit, QSpinBox { min-height: 32px; padding: 0 10px; border: 1px solid #b7c9e2; border-radius: 6px; background: #ffffff; color: #253f65; }
+QLineEdit:focus, QSpinBox:focus { border: 2px solid #096be8; }
+QPushButton { border-radius: 8px; padding: 8px 12px; font-weight: 600; }
+#calculateButton { background: #096be8; color: white; border: 1px solid #096be8; }
+#calculateButton:hover { background: #075fcf; }
+#clearButton { background: #ffffff; color: #18335d; border: 1px solid #b7c9e2; }
+#clearButton:hover { background: #edf4ff; }
+#caseButton { text-align: left; padding: 11px 14px; color: #18335d; background: #ffffff; border: 1px solid #d4e0f0; border-radius: 9px; font-size: 14px; }
+#caseButton:hover { border-color: #619bed; background: #f5f9ff; }
+#caseButton:pressed { background: #e9f2ff; border: 1px solid #096be8; }
+QTableWidget, #summaryTable { background: white; alternate-background-color: #f4f8fd; border: 1px solid #d4e0f0; border-radius: 8px; gridline-color: #e1eaf5; color: #1c3a62; }
+QHeaderView::section { background: #e3effd; color: #18335d; border: none; border-right: 1px solid #d4e0f0; padding: 8px 4px; font-weight: 700; }
+QTableWidget::item { padding: 6px; }
+QTableWidget::item:selected { background: #d7e9ff; color: #102b52; }
+QScrollBar:vertical { width: 10px; background: transparent; }
+QScrollBar::handle:vertical { background: #b7c9e2; border-radius: 5px; min-height: 30px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
